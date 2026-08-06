@@ -1,0 +1,135 @@
+2026-08-05 21:19:33,768 - INFO - Logging system initialized successfully.
+2026-08-05 21:19:33,768 - INFO - Starting Data Engineering Practical-2 Pipeline execution.
+2026-08-05 21:19:33,769 - INFO - Generating customer CSV dataset (200 records).
+2026-08-05 21:19:33,986 - INFO - Generating nested API JSON transactions (150 records).
+2026-08-05 21:19:34,185 - INFO - SQLite database initialized successfully at C:\Users\hp\OneDrive\Desktop\.vscode\.vscode\Project\database\customers.db
+2026-08-05 21:19:34,185 - INFO - Running quality validation on Customer Profiles CSV.
+2026-08-05 21:19:34,211 - INFO - Running quality validation on Nested API Transactions JSON.
+2026-08-05 21:19:34,243 - INFO - Successfully loaded 126 records into CustomerProfiles table.
+2026-08-05 21:19:34,251 - INFO - Successfully loaded 108 records into TransactionLogs table.
+2026-08-05 21:19:34,252 - INFO - 
+=================== EXECUTION SUMMARY: Customer Profiles (CSV -> SQLite) ===================
+Start Time       : 2026-08-05 21:19:33.753
+End Time         : 2026-08-05 21:19:34.252
+Duration (sec)   : 0.4987s
+Total Records    : 200
+Accepted Records : 126
+Rejected Records : 74
+Errors Encountered: 0
+Warnings Logged  : 74
+=========================================================================
+2026-08-05 21:19:34,252 - INFO - 
+=================== EXECUTION SUMMARY: Transaction Logs (JSON -> SQLite) ===================
+Start Time       : 2026-08-05 21:19:33.753
+End Time         : 2026-08-05 21:19:34.252
+Duration (sec)   : 0.4987s
+Total Records    : 150
+Accepted Records : 108
+Rejected Records : 42
+Errors Encountered: 0
+Warnings Logged  : 42
+=========================================================================
+2026-08-05 21:19:34,270 - ERROR - Critical error during pipeline execution: 'charmap' codec can't encode characters in position 2-81: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\hp\OneDrive\Desktop\.vscode\.vscode\Project\main.py", line 120, in run_pipeline
+    print("\n" + "╔" + "═"*78 + "╗")
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-81: character maps to <undefined>
+2026-08-05 21:20:16,742 - INFO - Logging system initialized successfully.
+2026-08-05 21:20:16,742 - INFO - Starting Data Engineering Practical-2 Pipeline execution.
+2026-08-05 21:20:16,742 - INFO - Generating customer CSV dataset (200 records).
+2026-08-05 21:20:16,949 - INFO - Generating nested API JSON transactions (150 records).
+2026-08-05 21:20:17,044 - INFO - SQLite database initialized successfully at C:\Users\hp\OneDrive\Desktop\.vscode\.vscode\Project\database\customers.db
+2026-08-05 21:20:17,045 - INFO - Running quality validation on Customer Profiles CSV.
+2026-08-05 21:20:17,064 - INFO - Running quality validation on Nested API Transactions JSON.
+2026-08-05 21:20:17,080 - INFO - Successfully loaded 126 records into CustomerProfiles table.
+2026-08-05 21:20:17,094 - INFO - Successfully loaded 108 records into TransactionLogs table.
+2026-08-05 21:20:17,094 - INFO - 
+=================== EXECUTION SUMMARY: Customer Profiles (CSV -> SQLite) ===================
+Start Time       : 2026-08-05 21:20:16.741
+End Time         : 2026-08-05 21:20:17.094
+Duration (sec)   : 0.3525s
+Total Records    : 200
+Accepted Records : 126
+Rejected Records : 74
+Errors Encountered: 0
+Warnings Logged  : 74
+=========================================================================
+2026-08-05 21:20:17,095 - INFO - 
+=================== EXECUTION SUMMARY: Transaction Logs (JSON -> SQLite) ===================
+Start Time       : 2026-08-05 21:20:16.741
+End Time         : 2026-08-05 21:20:17.094
+Duration (sec)   : 0.3525s
+Total Records    : 150
+Accepted Records : 108
+Rejected Records : 42
+Errors Encountered: 0
+Warnings Logged  : 42
+=========================================================================
+2026-08-05 21:20:17,097 - INFO - Data Engineering Pipeline run completed successfully.
+2026-08-05 21:22:24,877 - INFO - Logging system initialized successfully.
+2026-08-05 21:22:24,877 - INFO - Starting Data Engineering Practical-2 Pipeline execution.
+2026-08-05 21:22:24,877 - INFO - Generating customer CSV dataset (200 records).
+2026-08-05 21:22:25,019 - INFO - Generating nested API JSON transactions (150 records).
+2026-08-05 21:22:25,098 - INFO - SQLite database initialized successfully at C:\Users\hp\OneDrive\Desktop\.vscode\.vscode\Project\database\customers.db
+2026-08-05 21:22:25,099 - INFO - Running quality validation on Customer Profiles CSV.
+2026-08-05 21:22:25,139 - INFO - Running quality validation on Nested API Transactions JSON.
+2026-08-05 21:22:25,153 - INFO - Successfully loaded 126 records into CustomerProfiles table.
+2026-08-05 21:22:25,158 - INFO - Successfully loaded 108 records into TransactionLogs table.
+2026-08-05 21:22:25,159 - INFO - 
+=================== EXECUTION SUMMARY: Customer Profiles (CSV -> SQLite) ===================
+Start Time       : 2026-08-05 21:22:24.876
+End Time         : 2026-08-05 21:22:25.159
+Duration (sec)   : 0.2831s
+Total Records    : 200
+Accepted Records : 126
+Rejected Records : 74
+Errors Encountered: 0
+Warnings Logged  : 74
+=========================================================================
+2026-08-05 21:22:25,159 - INFO - 
+=================== EXECUTION SUMMARY: Transaction Logs (JSON -> SQLite) ===================
+Start Time       : 2026-08-05 21:22:24.876
+End Time         : 2026-08-05 21:22:25.159
+Duration (sec)   : 0.2831s
+Total Records    : 150
+Accepted Records : 108
+Rejected Records : 42
+Errors Encountered: 0
+Warnings Logged  : 42
+=========================================================================
+2026-08-05 21:22:25,163 - INFO - Data Engineering Pipeline run completed successfully.
+2026-08-05 21:23:03,199 - INFO - Logging system initialized successfully.
+2026-08-05 21:23:03,200 - INFO - Starting Data Engineering Practical-2 Pipeline execution.
+2026-08-05 21:23:03,200 - INFO - Generating customer CSV dataset (200 records).
+2026-08-05 21:23:03,400 - INFO - Generating nested API JSON transactions (150 records).
+2026-08-05 21:23:03,509 - INFO - SQLite database initialized successfully at C:\Users\hp\OneDrive\Desktop\.vscode\.vscode\Project\database\customers.db
+2026-08-05 21:23:03,516 - INFO - Running quality validation on Customer Profiles CSV.
+2026-08-05 21:23:03,535 - INFO - Running quality validation on Nested API Transactions JSON.
+2026-08-05 21:23:03,553 - INFO - Successfully loaded 126 records into CustomerProfiles table.
+2026-08-05 21:23:03,574 - INFO - Successfully loaded 108 records into TransactionLogs table.
+2026-08-05 21:23:03,576 - INFO - 
+=================== EXECUTION SUMMARY: Customer Profiles (CSV -> SQLite) ===================
+Start Time       : 2026-08-05 21:23:03.198
+End Time         : 2026-08-05 21:23:03.576
+Duration (sec)   : 0.3775s
+Total Records    : 200
+Accepted Records : 126
+Rejected Records : 74
+Errors Encountered: 0
+Warnings Logged  : 74
+=========================================================================
+2026-08-05 21:23:03,577 - INFO - 
+=================== EXECUTION SUMMARY: Transaction Logs (JSON -> SQLite) ===================
+Start Time       : 2026-08-05 21:23:03.198
+End Time         : 2026-08-05 21:23:03.576
+Duration (sec)   : 0.3775s
+Total Records    : 150
+Accepted Records : 108
+Rejected Records : 42
+Errors Encountered: 0
+Warnings Logged  : 42
+=========================================================================
+2026-08-05 21:23:03,584 - INFO - Data Engineering Pipeline run completed successfully.

@@ -1,0 +1,9 @@
+timestamp,dataset,duration_seconds,total,accepted,rejected,errors,warnings
+2026-08-05T21:19:34.252563,Customer Profiles (CSV -> SQLite),0.4987,200,126,74,0,74
+2026-08-05T21:19:34.260551,Transaction Logs (JSON -> SQLite),0.4987,150,108,42,0,42
+2026-08-05T21:20:17.095544,Customer Profiles (CSV -> SQLite),0.3525,200,126,74,0,74
+2026-08-05T21:20:17.096508,Transaction Logs (JSON -> SQLite),0.3525,150,108,42,0,42
+2026-08-05T21:22:25.159983,Customer Profiles (CSV -> SQLite),0.2831,200,126,74,0,74
+2026-08-05T21:22:25.160645,Transaction Logs (JSON -> SQLite),0.2831,150,108,42,0,42
+2026-08-05T21:23:03.577308,Customer Profiles (CSV -> SQLite),0.3775,200,126,74,0,74
+2026-08-05T21:23:03.578309,Transaction Logs (JSON -> SQLite),0.3775,150,108,42,0,42

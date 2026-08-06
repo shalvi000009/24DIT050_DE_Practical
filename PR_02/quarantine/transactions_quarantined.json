@@ -1,0 +1,532 @@
+[
+    {
+        "transaction_id": 10005,
+        "customer": {
+            "id": 151,
+            "name": "Craig"
+        },
+        "payment": {
+            "amount": -500,
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Transaction Amount: -500.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10009,
+        "customer": {
+            "id": 184,
+            "name": "Maria"
+        },
+        "payment": {
+            "amount": "two-thousand",
+            "mode": "Debit Card"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Invalid Datatype for payment.amount: 'two-thousand' (must be numeric)"
+    },
+    {
+        "transaction_id": 10019,
+        "customer": {
+            "id": 58,
+            "name": "Danielle"
+        },
+        "payment": {
+            "amount": -2500,
+            "mode": "Debit Card"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Invalid Transaction Amount: -2500.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10024,
+        "customer": {
+            "id": 259,
+            "name": "Amy"
+        },
+        "payment": {
+            "amount": 14485.0,
+            "mode": "Wallet"
+        },
+        "rejection_reason": "Missing transaction status"
+    },
+    {
+        "transaction_id": 10031,
+        "payment": {
+            "amount": 3781.0,
+            "mode": "UPI"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Missing nested customer details"
+    },
+    {
+        "customer": {
+            "id": 50,
+            "name": "Andrea"
+        },
+        "payment": {
+            "amount": 3870.0,
+            "mode": "Wallet"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "customer": {
+            "id": 283,
+            "name": "Jesse"
+        },
+        "payment": {
+            "amount": 10439.0,
+            "mode": "UPI"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "transaction_id": 10002,
+        "customer": {
+            "id": 113,
+            "name": "Helen"
+        },
+        "payment": {
+            "amount": 1260.0,
+            "mode": "Wallet"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Duplicate transaction_id: 10002"
+    },
+    {
+        "transaction_id": 10041,
+        "customer": {
+            "id": 195,
+            "name": "Nicholas"
+        },
+        "payment": {
+            "amount": 0,
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Transaction Amount: 0.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10042,
+        "customer": {
+            "id": 80,
+            "name": "Cassandra"
+        },
+        "payment": {
+            "amount": -500,
+            "mode": "UPI"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Transaction Amount: -500.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10046,
+        "customer": {
+            "id": 58,
+            "name": "Danielle"
+        },
+        "payment": {
+            "amount": 0,
+            "mode": "Debit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Transaction Amount: 0.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10052,
+        "customer": {
+            "id": null,
+            "name": "Mitchell"
+        },
+        "payment": {
+            "amount": 3144.0,
+            "mode": "UPI"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Missing customer.id"
+    },
+    {
+        "transaction_id": 10015,
+        "customer": {
+            "id": 82,
+            "name": "Matthew"
+        },
+        "payment": {
+            "amount": 2064.0,
+            "mode": "Wallet"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Duplicate transaction_id: 10015"
+    },
+    {
+        "transaction_id": 10056,
+        "customer": {
+            "id": 283,
+            "name": "Jesse"
+        },
+        "payment": {
+            "amount": "two-thousand",
+            "mode": "Debit Card"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Invalid Datatype for payment.amount: 'two-thousand' (must be numeric)"
+    },
+    {
+        "transaction_id": 10060,
+        "customer": {
+            "id": 14,
+            "name": "Jeffrey"
+        },
+        "payment": {
+            "amount": "two-thousand",
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Datatype for payment.amount: 'two-thousand' (must be numeric)"
+    },
+    {
+        "transaction_id": 10042,
+        "customer": {
+            "id": 99,
+            "name": "Michael"
+        },
+        "payment": {
+            "amount": 2243.0,
+            "mode": "Debit Card"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Duplicate transaction_id: 10042"
+    },
+    {
+        "customer": {
+            "id": 115,
+            "name": "Jill"
+        },
+        "payment": {
+            "amount": 14568.0,
+            "mode": "Credit Card"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "customer": {
+            "id": 143,
+            "name": "Eric"
+        },
+        "payment": {
+            "amount": 9643.0,
+            "mode": "Wallet"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "transaction_id": 10075,
+        "customer": {
+            "id": null,
+            "name": "Jason"
+        },
+        "payment": {
+            "amount": 12881.0,
+            "mode": "Wallet"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Missing customer.id"
+    },
+    {
+        "transaction_id": 10078,
+        "customer": {
+            "id": 113,
+            "name": "Helen"
+        },
+        "payment": {
+            "amount": 0,
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Transaction Amount: 0.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10079,
+        "customer": {
+            "id": 41,
+            "name": "Christopher"
+        },
+        "payment": {
+            "amount": -500,
+            "mode": "NetBanking"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Invalid Transaction Amount: -500.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10082,
+        "customer": {
+            "id": 113,
+            "name": "Helen"
+        },
+        "payment": {
+            "amount": 0,
+            "mode": "UPI"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Transaction Amount: 0.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10088,
+        "customer": {
+            "id": 141,
+            "name": "Joshua"
+        },
+        "payment": {
+            "amount": -2500,
+            "mode": "NetBanking"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Invalid Transaction Amount: -2500.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10098,
+        "customer": {
+            "id": 111,
+            "name": "Lindsay"
+        },
+        "payment": {
+            "amount": "two-thousand",
+            "mode": "Credit Card"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Invalid Datatype for payment.amount: 'two-thousand' (must be numeric)"
+    },
+    {
+        "transaction_id": 10099,
+        "customer": {
+            "id": null,
+            "name": "Joseph"
+        },
+        "payment": {
+            "amount": 8545.0,
+            "mode": "Wallet"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Missing customer.id"
+    },
+    {
+        "transaction_id": 10100,
+        "customer": {
+            "id": null,
+            "name": "Sharon"
+        },
+        "payment": {
+            "amount": 12406.0,
+            "mode": "Credit Card"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Missing customer.id"
+    },
+    {
+        "transaction_id": 10102,
+        "customer": {
+            "id": 111,
+            "name": "Lindsay"
+        },
+        "payment": {
+            "amount": 10115.0,
+            "mode": "UPI"
+        },
+        "rejection_reason": "Missing transaction status"
+    },
+    {
+        "transaction_id": 10106,
+        "customer": {
+            "id": 41,
+            "name": "Christopher"
+        },
+        "payment": {
+            "amount": "two-thousand",
+            "mode": "Wallet"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Invalid Datatype for payment.amount: 'two-thousand' (must be numeric)"
+    },
+    {
+        "transaction_id": 10031,
+        "customer": {
+            "id": 280,
+            "name": "Christopher"
+        },
+        "payment": {
+            "amount": 7578.0,
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Duplicate transaction_id: 10031"
+    },
+    {
+        "transaction_id": 10113,
+        "customer": {
+            "id": 143,
+            "name": "Melanie"
+        },
+        "payment": {
+            "amount": 1369.0,
+            "mode": "Debit Card"
+        },
+        "rejection_reason": "Missing transaction status"
+    },
+    {
+        "transaction_id": 10114,
+        "customer": {
+            "id": 113,
+            "name": "Helen"
+        },
+        "payment": {
+            "amount": 5338.0,
+            "mode": "Wallet"
+        },
+        "rejection_reason": "Missing transaction status"
+    },
+    {
+        "transaction_id": 10115,
+        "customer": {
+            "id": null,
+            "name": "Deborah"
+        },
+        "payment": {
+            "amount": 2571.0,
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Missing customer.id"
+    },
+    {
+        "transaction_id": 10118,
+        "customer": {
+            "id": 217,
+            "name": "Christopher"
+        },
+        "payment": {
+            "amount": "two-thousand",
+            "mode": "NetBanking"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Invalid Datatype for payment.amount: 'two-thousand' (must be numeric)"
+    },
+    {
+        "transaction_id": 10124,
+        "customer": {
+            "id": 80,
+            "name": "Cassandra"
+        },
+        "payment": {
+            "amount": -500,
+            "mode": "Wallet"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Invalid Transaction Amount: -500.0 (must be > 0)"
+    },
+    {
+        "customer": {
+            "id": 82,
+            "name": "Matthew"
+        },
+        "payment": {
+            "amount": 9797.0,
+            "mode": "Wallet"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "customer": {
+            "id": 275,
+            "name": "Brandon"
+        },
+        "payment": {
+            "amount": 7122.0,
+            "mode": "Credit Card"
+        },
+        "status": "PENDING",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "transaction_id": 10127,
+        "customer": {
+            "id": 14,
+            "name": "Jeffrey"
+        },
+        "payment": {
+            "amount": 0,
+            "mode": "Debit Card"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Invalid Transaction Amount: 0.0 (must be > 0)"
+    },
+    {
+        "customer": {
+            "id": 195,
+            "name": "Nicholas"
+        },
+        "payment": {
+            "amount": 953.0,
+            "mode": "Debit Card"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    },
+    {
+        "transaction_id": 10133,
+        "customer": {
+            "id": 45,
+            "name": "Robert"
+        },
+        "payment": {
+            "amount": 0,
+            "mode": "UPI"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Invalid Transaction Amount: 0.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10135,
+        "customer": {
+            "id": 136,
+            "name": "Michelle"
+        },
+        "payment": {
+            "amount": -2500,
+            "mode": "UPI"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Invalid Transaction Amount: -2500.0 (must be > 0)"
+    },
+    {
+        "transaction_id": 10144,
+        "customer": {
+            "id": 48,
+            "name": "Teresa"
+        },
+        "payment": {
+            "amount": -2500,
+            "mode": "Debit Card"
+        },
+        "status": "FAILED",
+        "rejection_reason": "Invalid Transaction Amount: -2500.0 (must be > 0)"
+    },
+    {
+        "customer": {
+            "id": 215,
+            "name": "Linda"
+        },
+        "payment": {
+            "amount": 3079.0,
+            "mode": "NetBanking"
+        },
+        "status": "SUCCESS",
+        "rejection_reason": "Missing transaction_id (Primary Key)"
+    }
+]

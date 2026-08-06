@@ -1,0 +1,75 @@
+Customer_ID,Name,Email,Phone,Age,City,Rejection_Reason
+1002.0,Edward Fuller,barbara10@,550.730.5641,29.0,Lake Victor,Invalid Email Format: 'barbara10@'
+,Zachary Rice,frazierdanny@example.net,001-645-514-6270x48281,45.0,West Kathryn,Missing Customer_ID (Primary Key)
+1007.0,David Brown,carlosjohnson_at_jones-young.info,311.265.6670,18.0,Chandlerville,Invalid Email Format: 'carlosjohnson_at_jones-young.info'
+1010.0,Tyler Miller,caseyjones@example.org,(719)639-9091x6998,-37.0,Lake Jennifer,Negative Age: -37
+1012.0,,cheryl80@example.net,+1-641-624-1182,66.0,Lake Matthew,Missing mandatory value: Name
+1005.0,Sarah Wagner,rebecca01@example.net,(340)405-2427x86801,51.0,Port Mikeside,Duplicate Customer_ID: 1005
+1009.0,Debbie Carpenter,benjamin96@example.com,001-556-798-1693x4060,64.0,Jonesmouth,Duplicate Customer_ID: 1009
+,Erica Ramos,williamleon@example.net,(514)589-5134,47.0,North Brandon,Missing Customer_ID (Primary Key)
+1023.0,Leslie Alvarado,,562-972-0465,63.0,Matthewfurt,Missing mandatory value: Email
+1024.0,Trevor Fisher,harringtondenise_at_herring.com,001-645-829-9124x190,27.0,Davidborough,Invalid Email Format: 'harringtondenise_at_herring.com'
+1027.0,David Ramirez,,+1-948-908-3136x783,66.0,Mcguireland,Missing mandatory value: Email
+1028.0,Jared Sanchez,thomas85@example.com,001-485-557-4443x1351,-10.0,Lake Todd,Negative Age: -10
+1031.0,Wanda Torres,lynchjody@,434-693-6183,58.0,North Brian,Invalid Email Format: 'lynchjody@'
+1033.0,Tiffany Key,fwalters_at_harrison.com,001-880-271-5451x68087,45.0,New Michael,Invalid Email Format: 'fwalters_at_harrison.com'
+1036.0,Juan Daniels,,853.439.6360x576,35.0,Hannaberg,Missing mandatory value: Email
+1040.0,Julie Roberts,charleslandry@example.net,664-674-3671x3695,,Port Dominiqueview,Missing mandatory value: Age
+1044.0,Stephen Taylor,,258.769.2617x964,38.0,South Sean,Missing mandatory value: Email
+1052.0,,vbarnes@example.org,(645)999-1022x901,73.0,Tuckermouth,Missing mandatory value: Name
+1053.0,Daniel Hunt,,(261)249-7840x369,18.0,West Sierra,Missing mandatory value: Email
+1062.0,Haley Quinn,ingramjill@example.com,(405)385-2772,26.0,Johnsonborough,Duplicate Customer_ID: 1062
+1069.0,,terri77@example.com,641.661.6928x45115,78.0,Morrisonchester,Missing mandatory value: Name
+1071.0,Heidi Herring,jacobserika@example.com,(271)492-8565x431,-12.0,Holmesside,Negative Age: -12
+1078.0,Sean Moore,fkoch_at_davis.net,580-716-2456x5060,20.0,Charleshaven,Invalid Email Format: 'fkoch_at_davis.net'
+1080.0,Rebecca Swanson,carlsonjoseph@example.net,001-399-530-9728x96230,25.0,South Leeberg,Duplicate Customer_ID: 1080
+1082.0,Damon Shaw,vsalas@,834-843-7575x8441,60.0,Stephanieberg,Invalid Email Format: 'vsalas@'
+1030.0,Dwayne Klein,sandra47@example.org,584.584.2199,53.0,Lake Rebeccabury,Duplicate Customer_ID: 1030
+1084.0,Julie Moore,hannah45@example.net,932.572.7956,73.0,Lake Karen,Duplicate Customer_ID: 1084
+1089.0,Angela Griffin,christian91@example.org,+1-983-398-2258,,Lake Brandy,Missing mandatory value: Age
+1043.0,Edwin Nunez,opatel@example.org,352.343.1069x033,31.0,South Carlaton,Duplicate Customer_ID: 1043
+1069.0,Connie Thomas,angela99@example.net,(942)935-3693x78547,19.0,Lake Laura,Duplicate Customer_ID: 1069
+1100.0,Joseph Hill,,608-762-1182x3398,80.0,Lauraland,Missing mandatory value: Email
+1104.0,Jessica Frazier,nmiller@example.com,711.342.6265,-21.0,North Sherrymouth,Negative Age: -21
+1105.0,Derrick Anderson,ryanhawkins@example.net,(810)315-8199x56046,-6.0,New Adriana,Negative Age: -6
+1107.0,Ryan James,,775-669-2459x37526,55.0,Faulknerbury,Missing mandatory value: Email
+1108.0,Douglas Hartman,daniel93@,(317)397-9688x6805,25.0,Lake Elizabeth,Invalid Email Format: 'daniel93@'
+1061.0,Brittany Cuevas,agarcia@example.org,725-945-7387,82.0,South Jennifermouth,Duplicate Customer_ID: 1061
+1112.0,Jeffrey Smith,,734.519.1825,83.0,Wilsonfort,Missing mandatory value: Email
+1023.0,Margaret Harper,wmatthews@example.com,392.449.9125x134,26.0,Heatherhaven,Duplicate Customer_ID: 1023
+1119.0,Paul Neal,shawn75@example.net,5179518636,9.0,Marcusport,Underage customer: 9 (below 18)
+1120.0,Kenneth Knight,martinezmia_at_bryant-braun.biz,+1-254-515-2064x3611,48.0,Millershire,Invalid Email Format: 'martinezmia_at_bryant-braun.biz'
+1121.0,Michael Smith,lisa62@example.com,436-811-1554,-42.0,Lake Victoria,Negative Age: -42
+,Ryan Fisher,kathrynbest@example.org,6918043006,30.0,Milesland,Missing Customer_ID (Primary Key)
+1027.0,Kimberly Hernandez,collinswilliam@example.org,(285)569-1463,82.0,South Darrenton,Duplicate Customer_ID: 1027
+1126.0,Patrick Yang,smithderrick@example.org,(675)388-4252,-28.0,West Lindsayview,Negative Age: -28
+1128.0,Tyler Johnson,pwalker@example.com,001-854-319-5180x2380,,Clineport,Missing mandatory value: Age
+1129.0,Juan Smith,,949.549.3759,56.0,East Adam,Missing mandatory value: Email
+,Kathy Walsh,kjones@example.org,(423)344-5655x74313,56.0,North Frank,Missing Customer_ID (Primary Key)
+1134.0,Teresa Miller,samantha10@example.org,472.815.1070,-44.0,Crawfordfurt,Negative Age: -44
+1136.0,Stephen Fox,mayokimberly@example.com,587.259.8564x2059,-12.0,Brianfort,Negative Age: -12
+1137.0,Pamela Key,barbaramcgrath_at_kelly-combs.com,001-992-293-7842,44.0,North Jessebury,Invalid Email Format: 'barbaramcgrath_at_kelly-combs.com'
+1108.0,Derek Wright,bellkristin@example.net,7068762676,53.0,Port Timothyshire,Duplicate Customer_ID: 1108
+,Melissa Martin,lloydarthur@example.org,941-215-2621x81599,60.0,Dunlapburgh,Missing Customer_ID (Primary Key)
+1144.0,Matthew Greene,,610.832.4171,74.0,Burnsview,Missing mandatory value: Email
+1038.0,Michael Harris,maryscott@example.net,916-286-8548,22.0,Rodriguezberg,Duplicate Customer_ID: 1038
+1150.0,Mr. James Brown,cameronmckinney@example.com,(289)902-3303,2.0,West Janetview,Underage customer: 2 (below 18)
+1153.0,Daniel Turner,asilva@example.net,+1-658-699-4417x15454,,East Zachary,Missing mandatory value: Age
+1159.0,Stephen Cowan,,475-332-6033x23098,60.0,Jenniferton,Missing mandatory value: Email
+1162.0,Daniel Fitzpatrick MD,smithchristopher@example.org,001-972-618-1143,-6.0,Stevenville,Negative Age: -6
+1163.0,,morganphelps@example.com,+1-356-711-0022x55794,22.0,Ianfurt,Missing mandatory value: Name
+1165.0,Sheryl Acosta,reynoldsjessica@ reed-rhodes.biz,(489)300-2877,62.0,Floresmouth,Invalid Email Format: 'reynoldsjessica@ reed-rhodes.biz'
+1166.0,Amber Walker,ppowell@example.org,879.871.7751x701,8.0,New Andrealand,Underage customer: 8 (below 18)
+1167.0,Tracey Walsh,@cox-brown.com,+1-385-610-2726,69.0,East David,Invalid Email Format: '@cox-brown.com'
+1168.0,Cindy Summers,jenniferrodriguez@example.com,2912779827,3.0,Robersonfort,Underage customer: 3 (below 18)
+1170.0,Michael Valencia,jamesweber@example.com,+1-652-828-8515x87996,,New Danielfurt,Missing mandatory value: Age
+1174.0,Richard Stewart,,828.318.2688,51.0,Jeffreyborough,Missing mandatory value: Email
+,Erin Carter,wbarajas@example.net,7158739930,73.0,South Jonathanport,Missing Customer_ID (Primary Key)
+1176.0,Jose Townsend,stucker@example.net,358.511.2880,11.0,Port Gina,Underage customer: 11 (below 18)
+1178.0,,ystewart@example.net,380-691-9015,42.0,Catherineport,Missing mandatory value: Name
+,Mark Evans,susan08@example.net,(310)609-9688,43.0,Lake Judith,Missing Customer_ID (Primary Key)
+1181.0,Christine Whitehead,eugenewalker@example.com,612.390.8781,,Coreyshire,Missing mandatory value: Age
+1170.0,Mr. Carl Rios,mitchellchad@example.org,277-759-4929x95562,60.0,Port Jeffrey,Duplicate Customer_ID: 1170
+1186.0,Kelly Moody,dharrison@example.org,4518844989,10.0,Diazland,Underage customer: 10 (below 18)
+1192.0,Kimberly Scott,fletcherkristine@example.net,618.806.3565x12694,7.0,Cherylfurt,Underage customer: 7 (below 18)
+1192.0,Christine Harris,marykelly@example.org,717-990-8075,48.0,Travishaven,Duplicate Customer_ID: 1192
