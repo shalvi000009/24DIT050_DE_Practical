@@ -1,0 +1,3 @@
+architecture,records,total_time_seconds,average_latency_ms,min_latency_ms,max_latency_ms,throughput_records_per_second
+Real-Time Streaming,2000,11.011,3.56,0.1,87.74,181.64
+Micro-Batch,2000,11.647,301.28,2.01,959.19,171.72

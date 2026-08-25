@@ -1,0 +1,2 @@
+test,broker_status,producer_status,consumer_status,messages_before_failure,messages_after_recovery,observed_result
+Redpanda Single-Node Broker Shutdown & Recovery,Recovered / Running,Reconnection / Retry Pending -> Restored & Sending,Reconnected successfully,100,200,"Broker container was stopped during active ingestion. Producer automatically buffered & retried connection. Upon container restart, broker state and committed offsets persisted seamlessly without data loss. Consumer automatically re-established TCP connection and resumed processing."
